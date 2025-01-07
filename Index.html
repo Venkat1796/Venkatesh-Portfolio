@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Personal Portfolio - Venkatesh</title>
+
+
+
+    <!-- bootstrap css cdn link  -->
+
+    <link
+
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+
+      rel="stylesheet"
+
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+
+      crossorigin="anonymous"
+
+    />
+
+
+
+    <!-- custom css file -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+
+
+    <!-- google font link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+
+
+    <!-- bootstrap icon cdn link  -->
+
+    <link
+
+      rel="stylesheet"
+
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+
+    />
+
+
+
+    <!-- for adding animation to website we have use AOS library 
+
+    AOS Library css file cdn link -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+    <!-- jquery cdn link  -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- navbar starts -->
+
+    <nav
+
+      id="navbar-top"
+
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+
+    >
+
+      <div class="container-fluid px-5">
+
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+
+          >Portfolio</a
+
+        >
+
+        <button
+
+          class="nav-menu d-md-none"
+
+          type="button"
+
+          data-bs-toggle="collapse"
+
+          data-bs-target="#navbarNav"
+
+        >
+
+          <i class="bi bi-menu-button-fill"></i>
+
+        </button>
+
+        <div
+
+          class="collapse navbar-collapse justify-content-center"
+
+          id="navbarNav"
+
+        >
+
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+
+            <li class="nav-item">
+
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="#skills">Skills</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="#certifications">Certifications</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="#footer">Contact</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">BV</button>
+
+      </div>
+
+    </nav>
+
+    <!-- navbar ends here -->
+
+
+
+    <!-- home section starts  -->
+
+    <section class="home pt-5 pb-5" id="home">
+
+      <div class="row justify-content-evenly align-middle">
+
+        <!-- here data-aos is used for adding aos animation  -->
+
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+
+          <h2 style="color: #3f396d">
+
+            Hello! I Am <br /><span class="c-orange">Bontala Venkatesh</span>
+
+          </h2>
+
+          <p class="text-muted">
+
+            Welcome to my web developer portfolio! I'm Bontala Venkatesh, 
+
+            a skilled and creative web developer with a passion for creating 
+
+            beautiful, responsive, and user-friendly websites.
+
+          </p>
+
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+
+            Hire Me
+
+          </button>
+
+          <a href="" class="link ms-4 d-none">See My Work</a>
+
+        </div>
+
+        <div class="col-10 col-md-4 d-none d-md-block">
+
+          <img src="venky.jpeg" class="img-fluid" alt="" />
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- home section ends here -->
+
+
+
+    <!-- skill section starts -->
+
+    <section class="skill mt-5 py-5" id="skills">
+
+      <div class="row justify-content-evenly">
+
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+
+          <div class="row justify-content-evenly">
+
+            <div class="col-10 col-md-6">
+
+              <div class="progress-card ms-3 ms-md-0">
+
+                <div class="circular-progress html-css">
+
+                  <span class="progress-value html-progress">0%</span>
+
+                </div>
+
+                <br />
+
+                <span class="text">HTML & CSS</span>
+
+              </div>
+
+            </div>
+
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+
+              <div class="progress-card ms-3 ms-md-0">
+
+                <div class="circular-progress python">
+
+                  <span class="progress-value python-progress">0%</span>
+
+                </div>
+
+                <br />
+
+                <span class="text">Python</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-evenly mt-4">
+
+            <div class="col-10 col-md-6">
+
+              <div class="progress-card ms-3 ms-md-0">
+
+                <div class="circular-progress ai">
+
+                  <span class="progress-value ai-progress">0%</span>
+
+                </div>
+
+                <br />
+
+                <span class="text">Artificial Intelligence</span>
+
+              </div>
+
+            </div>
+
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+
+              <div class="progress-card ms-3  ms-md-0">
+
+                <div class="circular-progress ml">
+
+                  <span class="progress-value ml-progress">0%</span>
+
+                </div>
+
+                <br>
+
+                <span class="text">Machine Learning</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+
+          <div class="heading mt-5 mt-md-3">
+
+            <h3>My Skills</h3>
+
+            <ul class="text-muted">
+
+              <li>
+
+                With expertise in HTML and CSS, I have designed and developed responsive and visually engaging websites, creating dynamic layouts using advanced CSS techniques like Flexbox and Grid.
+
+              </li>
+
+              <li>
+
+                My Python projects showcase a strong aptitude for problem-solving, including a face recognition attendance system and a keyword-based piracy detection application that safeguards media content.
+
+              </li>
+
+              <li>
+
+                In the realm of Artificial Intelligence, I have built innovative solutions like an AI-driven system to enhance student engagement in educational settings and a recipe generation model using multimodal AI techniques.
+
+              </li>
+
+              <li>
+
+                My Machine Learning journey includes developing predictive models and conducting detailed exploratory data analysis. I have also worked on advanced image classification, demonstrating my ability to integrate research and technical implementation seamlessly.
+
+              </li>
+
+            </ul>
+
+            
+
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+
+              <!-- here download attribute is used for adding download functionality to button  -->
+
+              <a
+
+                href="BONTALA VENKATESH Resume.pdf"
+
+                download="SampleCV"
+
+                style="text-decoration: none;color: #fff;"
+
+                >Download CV</a
+
+              >
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- skill section end here -->
+
+
+
+    <!-- certifications section starts -->
+
+    <section class="certifications mt-5 pb-5" id="certifications">
+
+      <div class="heading text-center pt-5">
+
+        <h3>My Certifications</h3>
+
+      </div>
+
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+
+
+
+        <!-- Certifiaction 1 start-->
+
+        <div class="certificate col-md-4 col-10 mt-2 mt-md-0">
+
+          <div class="card">
+
+            <img
+
+              src="IIDT Blackbucks.png"
+
+              class="card-img-top rounded-4"
+
+              alt="..."
+
+            />
+
+            <div class="card-body px-4">
+
+              <small>By Venkatesh</small
+
+              ><span class="ms-3">July 24,2024</span>
+
+              <h4 class="card-title">
+
+                <a href="IIDT Blackbucks Summer Internship II-II.pdf">IIDT Blackbucks Summer Internship</a>
+
+              </h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Certifiaction 1 end-->
+
+
+
+        <!-- Certifiaction 2 start-->
+
+        <div class="certificate col-md-4 col-10 mt-5 mt-md-0">
+
+          <div class="card">
+
+            <img
+
+              src="Python Essentials 1.jpg"
+
+              class="card-img-top rounded-4"
+
+              alt="..."
+
+            />
+
+            <div class="card-body px-4">
+
+              <small>By Venkatesh</small
+
+              ><span class="ms-3">May 20,2024</span>
+
+              <h4 class="card-title">
+
+                <a href="Python Essentials 1.jpg">Python Essentials 1</a>
+
+              </h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Certifiaction 2 end-->
+
+
+
+        <!-- Certifiaction 3 start-->
+
+        <div class="certificate col-md-4 col-10 mt-5 mt-md-0">
+
+          <div class="card">
+
+            <img
+
+              src="NLP Certificate.png"
+
+              class="card-img-top rounded-4"
+
+              alt="..."
+
+            />
+
+            <div class="card-body px-4">
+
+              <small>By Venkatesh</small
+
+              ><span class="ms-3">Mar 1,2024</span>
+
+              <h4 class="card-title">
+
+                <a href="Natural Language Processing Foundation Certification.pdf">Natural Language Processing</a>
+
+              </h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Certifiaction 3 end-->
+
+
+
+        <!-- Certifiaction 4 start-->
+
+        <div class="certificate col-md-4 col-10 mt-5 mt-md-0">
+
+          <div class="card">
+
+            <img
+
+              src="CPP Training.png"
+
+              class="card-img-top rounded-4"
+
+              alt="..."
+
+            />
+
+            <div class="card-body px-4">
+
+              <small>By Venkatesh</small
+
+              ><span class="ms-3">Feb 14,2024</span>
+
+              <h4 class="card-title">
+
+                <a href="IIT Bombay Spoken Tutorial CPP Certificate.pdf">CPP Training by IIT Bombay</a>
+
+              </h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Certifiaction 4 end-->
+
+
+
+        <!-- Certifiaction 5 start-->
+
+        <div class="certificate col-md-4 col-10 mt-5 mt-md-0">
+
+          <div class="card">
+
+            <img
+
+              src="C Training.png"
+
+              class="card-img-top rounded-4"
+
+              alt="..."
+
+            />
+
+            <div class="card-body px-4">
+
+              <small>By Venkatesh</small
+
+              ><span class="ms-3">Nov 4,2023</span>
+
+              <h4 class="card-title">
+
+                <a href="IIT Bombay Spoken Tutorial C Certificate.pdf">C Training by IIT Bombay</a>
+
+              </h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Certifiaction 5 end-->
+
+
+
+        <!-- Certifiaction 6 start-->
+
+        <div class="certificate col-md-4 col-10 mt-5 mt-md-0">
+
+          <div class="card">
+
+            <img
+
+              src="Python Foundation.png"
+
+              class="card-img-top rounded-4"
+
+              alt="..."
+
+            />
+
+            <div class="card-body px-4">
+
+              <small>By Venkatesh</small
+
+              ><span class="ms-3">Apr 27,2023</span>
+
+              <h4 class="card-title">
+
+                <a href="Python Foundation Certification.pdf">Python Foundation Certification</a>
+
+              </h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Certifiaction 6 end-->
+
+
+
+      </div>
+
+    </section>
+
+    <!-- certifications section ends here -->
+
+
+
+<!-- footer section starts -->
+
+<footer class="text-center text-muted py-4" id="footer">
+
+  <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+
+  <div class="link-group mt-5" data-aos="fade-up">
+
+    <a href="#home">Home</a>
+
+    <div class="vr"></div>
+
+    <a href="#skills">Skills</a>
+
+    <div class="vr"></div>
+
+    <a href="#certifications">Certifications</a>
+
+    <div class="vr"></div>
+
+    <a href="#footer">Contact</a>
+
+  </div>
+
+
+
+  <div class="social-links mt-5" data-aos="fade-up">
+
+    <a href="https://www.linkedin.com/in/b-venkatesh-515a532a4" target="_blank" class="rounded-pill linkedin" aria-label="LinkedIn" data-bs-toggle="tooltip" title="Connect on LinkedIn">
+
+      <i class="bi bi-linkedin"></i>
+
+    </a>
+
+    <a href="https://github.com/Venkat1796" target="_blank" class="rounded-pill github" aria-label="GitHub" data-bs-toggle="tooltip" title="Check my GitHub">
+
+      <i class="bi bi-github"></i>
+
+    </a>
+
+    <a href="https://wa.me/9347811187" target="_blank" class="rounded-pill whatsapp" aria-label="WhatsApp" data-bs-toggle="tooltip" title="Chat on WhatsApp">
+
+      <i class="bi bi-whatsapp"></i>
+
+    </a>
+
+    <a href="mailto:venkateshbontala5.com" target="_blank" class="rounded-pill gmail" aria-label="Gmail" data-bs-toggle="tooltip" title="Send an Email">
+
+      <i class="bi bi-envelope"></i>
+
+    </a>
+
+    <a href="https://www.instagram.com/mr.venkatesh_8092/profilecard/?igsh=MThnejhsYjB2OGxhNQ==" target="_blank" class="rounded-pill instagram" aria-label="Instagram" data-bs-toggle="tooltip" title="Follow on Instagram">
+
+      <i class="bi bi-instagram"></i>
+
+    </a>
+
+  </div>
+
+        
+
+  <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+
+      <!-- bootstrap javascript cdn link  -->
+
+    <script
+
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+
+
+    <!-- AOS library javascript link  -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+
+      // initializing AOS library
+
+      AOS.init({
+
+        duration: 1000,
+
+        offset: 50,
+
+      });
+
+    </script>
+
+    <!-- custom js file linking -->
+
+    <script src="js/script.js"></script>
+
+    
+
+  </body>
+
+</html>
